@@ -23,7 +23,7 @@ const Home = () => {
             development version. And here I am!
             </p>
             < p className="text-gray-300 py-4 max-w-md px-2">
-            Welcome to my React portfolio. AKA my work in progress.
+            Welcome to my portfolio. AKA progress report.
             </p>
             
           <div>

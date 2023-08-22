@@ -8,15 +8,18 @@ const Portfolio = () => {
   const portfolios = [
     {
         id: 1,
-        src:sheCodesProject
+        src:sheCodesProject,
+        title: "SheCodes"
     },
     {
       id: 2,
-      src:cantHaveIt
+      src:cantHaveIt,
+      title: "Can't Have It!"
   },
   {
     id: 3,
-    src:hobbySquad
+    src:hobbySquad,
+    title: "HobbySquad",
 },
   ]
   return(
@@ -29,10 +32,10 @@ const Portfolio = () => {
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
       {portfolios.map(({ id, src }) => (
 
-        <div key={id} className="shadow-md shadow-gray-600 rounded-md">
+        <div key={id} className="shadow-md shadow-pink-200 rounded-md">
           
           <img src={src} 
-          alt="project"
+          alt="projects"
           className="rounded-md duration-200 hover:scale-105" />
           <div className=" flex items-center justify-center">
             <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">DEPLOYED</button>
